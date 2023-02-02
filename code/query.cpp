@@ -217,7 +217,7 @@ RealType vertical_angle(RealType length) {
 
 int main(int argc, char const *argv[]) {
 	if (!(argc == 2 || argc == 3)) {
-		std::cerr << "No arguments given.\n"
+		std::cerr << "No arguments given.\n";
 		return 0;
 	}
 
